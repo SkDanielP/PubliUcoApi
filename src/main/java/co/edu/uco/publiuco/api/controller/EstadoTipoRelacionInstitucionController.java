@@ -81,6 +81,7 @@ public final class EstadoTipoRelacionInstitucionController {
 			}else {
 				statusCode = HttpStatus.BAD_REQUEST;
 				response.setMessages(result.getMessages());
+				
 
 			}
 				
